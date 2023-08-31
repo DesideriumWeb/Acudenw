@@ -1,0 +1,26 @@
+.ContactImage{
+    width: 75%;
+}
+
+.Component{
+    padding: 7em 0;
+}
+
+.ContactH2 {
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+.ContactP{
+    font-family: Montserrat;
+}
+
+.ContactImgInformation{
+    margin: 0 2em 1.2em 0 ;
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.ContactSection{
+    display: flex;
+}

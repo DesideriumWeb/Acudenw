@@ -1,0 +1,29 @@
+.AboutTitle{
+    background-image: url("../../../assets/images/Portal/AboutUs/BackgroundAboutTitle.svg");
+    padding: 10% 0 0 0;
+    margin: -30px 0 0 0;
+    min-height: 839px;
+    display: flex;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: #FFFFFF;
+    background-color: #EEF2F6;
+}
+
+.ImgAboutTitle{
+    width: 100%; 
+}
+
+.Text{
+    margin: 7% 0 0 0;
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px) {
+    .AboutTitle {
+        background-image: url("../../../assets/images/Portal/AboutUs/BackgroundAboutTitleMobile.svg");
+        background-position: center;
+        min-height: 904px;
+    }
+}

@@ -1,0 +1,42 @@
+.LoginP{
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
+    color: #092C4C !important;
+}
+
+.LoginP:hover{
+    color: #1381e7 !important;
+}
+
+.singIn{
+    /* Button */
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 18px;
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #092C4C;
+    margin: 30px 0;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    
+    /* Inside auto layout */
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+    
+}
+    
+.singIn:hover{
+      background-color: #A7D02A;
+      color: #092C4C;
+}
+

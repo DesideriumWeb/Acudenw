@@ -1,0 +1,86 @@
+.Banner {
+    margin: 5% 0;
+}
+
+.BannerCenter {
+    text-align: right;
+}
+
+.BannerTitle {
+    font-weight: 700;
+    font-size: 58px;
+    font-family: Montserrat;
+    line-height: 124%;
+    color: #092C4C;
+    padding: 10% 0 0 0;
+}
+
+.BannerSubtitle {
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-top: 3%;
+    color: #092C4C;
+}
+
+
+.SeeDemo {
+    /* Button */
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 18px;
+    width: 145px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 30px 15px;
+    font-family: Montserrat;
+    font-size: 19px;
+
+    /* Inside auto layout */
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+}
+
+.SeeDemo:hover {
+    background-color: #f1f1f1;
+}
+
+.Begin {
+    /* Button */
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 18px;
+    width: 145px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #092C4C;
+    margin: 30px 15px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+
+    /* Inside auto layout */
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+
+}
+
+
+.Begin:hover {
+    background-color: #A7D02A;
+    color: #092C4C;
+}

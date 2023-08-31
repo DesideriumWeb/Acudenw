@@ -1,0 +1,397 @@
+@import url();
+a {
+  color: #092C4C;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat/Montserrat-Regular.ttf") format("ttf") !important;
+}
+@font-face {
+  font-family: "Montserrat bold";
+  src: url("../assets/fonts/Montserrat/Montserrat-Bold.ttf") format("ttf") !important;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+h1{
+  font-family: "Montserrat bold", sans-serif !important;
+}
+
+h2{
+  font-family: "Montserrat bold", sans-serif !important;
+}
+
+h3{
+  font-family: "Montserrat bold", sans-serif !important;
+}
+
+h4{
+  font-family: "Montserrat bold", sans-serif !important;
+}
+
+h5{
+  font-family: "Montserrat bold", sans-serif !important;
+}
+
+p {
+  font-family: "Montserrat bold", sans-serif !important;
+}
+
+a {
+  font-family: "Montserrat bold", sans-serif !important;
+  text-decoration: none !important;
+  color: #092C4C;
+}
+a:hover, a:active, a:visited {
+  color: #092C4C;
+}
+
+.green {
+  color: #92DCB7;
+}
+
+.bg-green {
+  background-color: #92DCB7;
+}
+
+.btn-content-lg {
+  max-width: 680px;
+  border: 1.5px solid #ccc;
+  border-radius: 20px;
+  padding: 30px 40px;
+  transition: all ease-out 200ms;
+  cursor: pointer;
+}
+.btn-content-lg:hover {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.12);
+  border-color: #092C4C;
+}
+.btn-content-lg .content {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-content-lg .content img {
+  display: block;
+}
+.btn-content-lg .content .text {
+  margin-left: 40px;
+  text-align: left;
+}
+.btn-content-lg .content .text h3 {
+  font-family: "Montserrat bold", sans-serif;
+  font-size: 20px;
+  margin: 22px 0 22px;
+}
+.btn-content-lg .content .text p {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 0 22px;
+}
+@media (max-width: 990px) {
+  .btn-content-lg .content {
+    display: block;
+  }
+  .btn-content-lg .content img {
+    margin: 0 auto;
+  }
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Montserrat bold", sans-serif;
+}
+.btn.btn-light, .btn.btn-dark {
+  transition: all ease-out 200ms;
+}
+.btn.btn-light {
+  background-color: #fff;
+  color: #092C4C;
+  border: 2px solid #092C4C;
+}
+.btn.btn-light:hover {
+  background-color: #092C4C;
+  color: #fff;
+}
+.btn.btn-dark {
+  background-color: #092C4C;
+  color: #fff;
+  border: 2px solid #092C4C;
+}
+.btn.btn-dark:hover {
+  background-color: #A7D02A;
+  border-color: #A7D02A;
+  color: #092C4C;
+}
+
+.field-group {
+  margin: 25px 0;
+}
+.field-group label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.field-group input:not([type=checkbox]) {
+  width: 100%;
+  padding: 16px;
+  line-height: 22px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: all ease-out 200ms;
+}
+.field-group input:not([type=checkbox])::placeholder {
+  color: #595959;
+  font-size: 16px;
+  line-height: 21px;
+}
+.field-group input:not([type=checkbox]):focus, .field-group input:not([type=checkbox]):active {
+  outline: none;
+  border-color: #092C4C;
+}
+.field-group input:not([type=checkbox]).error {
+  border-color: #D9224D;
+}
+.field-group .checkbox-container {
+  font-size: 16px;
+}
+
+form p.group-title {
+  text-align: left;
+  margin: 16px 0 2px;
+}
+
+.topbar .link-exit {
+  display: block;
+  width: 120px;
+  position: relative;
+  padding: 10px 40px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.topbar .link-exit .icon-exit::before {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  content: url("assets/images/icons/icon-exit.svg");
+  height: 30px;
+  width: 35px;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+.topbar .link-exit:hover .icon-exit::before {
+  left: -5px;
+}
+
+main.pg-register:not(.register-select) .container,
+main.pg-login:not(.register-select) .container {
+  max-width: 450px;
+  width: 100%;
+}
+main.pg-register .pgLogo,
+main.pg-login .pgLogo {
+  display: block;
+  margin: 0 auto 32px;
+}
+main.pg-register .pg-title,
+main.pg-login .pg-title {
+  font-size: 32px;
+  font-family: "Montserrat bold", sans-serif;
+  margin-bottom: 50px;
+}
+main.pg-register .pg-subtitle,
+main.pg-login .pg-subtitle {
+  margin: 24px 0;
+}
+main.pg-register .btn-content-lg,
+main.pg-login .btn-content-lg {
+  margin-bottom: 40px;
+}
+main.pg-register .login-link,
+main.pg-login .login-link {
+  margin-top: 70px;
+}
+main.pg-register form,
+main.pg-login form {
+  margin-top: 70px;
+}
+main.pg-register .button-bar,
+main.pg-login .button-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.logged-in header {
+  height: 112px;
+  background-color: #fff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.12);
+  transition: all ease-out 300ms;
+}
+.logged-in header.open {
+  height: 100vh;
+}
+.logged-in header .topbar {
+  margin: 0;
+  padding: 22px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logged-in header .topbar .pgLogo {
+  height: 68px;
+}
+.logged-in header .topbar nav ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+.logged-in header .topbar nav ul li a {
+  font-family: "Montserrat Sans", sans-serif;
+  font-size: 18px;
+  padding: 12px;
+}
+.logged-in header .topbar nav ul li a:hover {
+  color: #0069AE;
+}
+.logged-in header .topbar nav ul li a.active {
+  font-weight: bold;
+}
+.logged-in header .topbar div.userMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logged-in header .topbar div.userMenu a {
+  display: inline-block;
+  padding: 10px 5px 10px 25px;
+}
+.logged-in header .topbar div.userMenu a img {
+  display: block;
+  height: 30px;
+}
+.logged-in header .topbar div.userMenu a img.profileImage {
+  height: 50px;
+}
+.logged-in header .topbar div.userMenu a.profile {
+  position: relative;
+}
+.logged-in header .topbar div.userMenu a.profile ul.profileSubnav {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: -60px;
+  list-style: none;
+  background-color: #092C4C;
+  color: #fff;
+  padding: 18px;
+  border-radius: 20px;
+  width: 254px;
+}
+.logged-in header .topbar div.userMenu a.profile ul.profileSubnav li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 12px 14px;
+}
+.logged-in header .topbar div.userMenu a.profile:hover .profileSubnav {
+  display: block;
+}
+.logged-in header .topbar div.userMenu .mobileBtn {
+  display: none;
+  padding: 10px 5px 10px 25px;
+  cursor: pointer;
+}
+.logged-in header .topbar div.userMenu .mobileBtn img {
+  display: block;
+  height: 30px;
+}
+.logged-in header .topbar div.userMenu .mobileBtn img.close {
+  display: none;
+}
+.logged-in header .mobileMenu {
+  opacity: 0;
+  text-align: center;
+  padding: 25px;
+}
+.logged-in header .mobileMenu.open {
+  opacity: 1;
+}
+.logged-in header .mobileMenu .mobileProfile {
+  margin-bottom: 45px;
+}
+.logged-in header .mobileMenu .mobileProfile .profile-name {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.logged-in header .mobileMenu .mobileProfile .subtitle {
+  margin: 0;
+  font-size: 16px;
+}
+.logged-in header .mobileMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.logged-in header .mobileMenu ul li {
+  padding: 12px;
+  font-size: 16px;
+  color: #1E1E1E;
+  margin-bottom: 20px;
+}
+@media (max-width: 1200px) {
+  .logged-in header .desktopNav,
+.logged-in header .topbar div.userMenu .profile {
+    display: none;
+  }
+  .logged-in header .topbar div.userMenu .mobileBtn {
+    display: block;
+  }
+}
+
+.pg-login .content {
+  width: 440px;
+}
+@media (max-width: 450px) {
+  .pg-login .content {
+    width: 100%;
+  }
+}
+.pg-login .content img {
+  display: block;
+  margin: 0 auto;
+}
+.pg-login .login-form .forgot-password {
+  text-align: left;
+  padding: 12px 0;
+}
+.pg-login .login-form .button-bar {
+  display: block;
+}
+.pg-login .login-form .button-bar .btn {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.pg-login .login-form .button-bar p {
+  padding-top: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body.logged-in {
+  background-color: #f5f5f5;
+}
+
+.center {
+  text-align: center;
+}

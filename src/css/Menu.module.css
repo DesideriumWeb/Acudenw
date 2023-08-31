@@ -1,0 +1,157 @@
+.Menu {
+    width: 100%;
+    padding: 1em;
+    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    height: 100%;
+}
+
+.MenuButton {
+    display: none;
+    cursor: pointer;
+}
+
+.MenuSvg {
+    width: 2em;
+    height: 100%;
+    fill: white;
+}
+
+.MenuNav {
+    margin: 3%;
+}
+
+.MenuUl {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.MenuLi {
+    margin: 0 .8em;
+    float: left;
+    font-size: 18px;
+}
+
+.MenuLiUl {
+    padding: 15px;
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 12%);
+    border-radius: 10px;
+}
+
+.MenuLiUlLi {
+    margin-top: 1em;
+}
+
+.MenuLi:hover>ul {
+    display: block;
+}
+
+
+.chevronDownIcon {
+    padding: 0 10px;
+}
+
+.MenuButtonMovil{
+    display: none;
+}
+
+@media screen and (max-width:1180px) {
+
+    .Menu {
+        margin-top: auto;
+        padding: 2.5em 0em;
+        cursor: pointer;
+
+    }
+
+    .MenuButton {
+        display: flex;
+        background-image: url("assets/images/icons/icon-menu.svg");
+        background-position: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: #FFFFFF;
+        height: 34px;
+    }
+
+    .MenuNav {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        height: 0vh;
+        opacity: 0;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+
+    .MenuNavIsActive {
+        height: 100vh;
+        opacity: 1;
+        margin-left: -100%;
+    }
+
+    .MenuUl {
+        flex-direction: column;
+        display: grid;
+        z-index: 5;
+        background: black;
+        color: white;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .MenuLi {
+        margin: 1em 0;
+    }
+
+    .MenuLi>a {
+        color: #FFFFFF;
+    }
+
+    .MenuLiUl {
+        padding: 15px;
+        display: none;
+        position: absolute;
+        min-width: 140px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 2px 12px rgb(0 0 0 / 12%);
+        border-radius: 10px;
+    }
+
+    .MenuLi:hover>ul {
+        display: block;
+        width: 100%;
+        text-align: left;
+        position: inherit;
+        background-color: black;
+    }
+
+    .MenuLiUlLi>a {
+        color: #FFFFFF;
+    }
+
+    .MenuLiUlLi>a:hover {
+        color: #FFFFFF;
+    }
+
+    .MenuSeparator {
+        margin: -15%;
+    }
+
+    .MenuButtonMovil{
+        display: grid;
+    }
+}

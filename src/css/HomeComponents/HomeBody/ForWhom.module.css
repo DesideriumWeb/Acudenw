@@ -1,0 +1,23 @@
+.ForWhomIcons{
+    width: 120px;
+}
+
+.ForWhomTittle{
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat;
+    padding: 10% 0 0 0;
+    color: #092C4C;
+}
+
+.ForWhomCenter{
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat;
+    min-height: 90px;
+    color: #092C4C;
+}
+
+.ForWhomText{
+    color: #092C4C;
+}

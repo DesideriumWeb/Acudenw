@@ -1,0 +1,41 @@
+.QualitySystem{
+    background-image: url("assets/images/Portal/AboutUs/BackgroundQualitySystem.svg");
+    padding: 10% 0 0 0;
+    min-height: 550px;
+    display: flex;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: #FFFFFF;
+    background-color: #EEF2F6;
+}
+
+.ImgQualitySystem{
+    width: 100%;
+}
+
+
+.ImgArrowKnowMore{
+    height: 50%;
+    margin-left: 1em;
+}
+ 
+.Text{
+    margin: 4% 0 0 0;
+    font-weight: bold;
+}
+
+.Paragraph{
+    margin-top: 5%;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .QualitySystem {
+        background-image: url("assets/images/Portal/AboutUs/BackgroundQualitySystemMobile.svg");
+        background-position: center;
+        min-height: 904px;
+    }
+}

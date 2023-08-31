@@ -1,0 +1,33 @@
+.OurMision{
+    background-image: url("assets/images/Portal/AboutUs/BackgroundOurMision.svg");
+    padding: 10% 0 0 0;
+    min-height: 839px;
+    display: flex;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: #FFFFFF;
+    background-color: #ffffff;
+}
+
+.ImgOurMision{
+    width: 100%;
+}
+
+.Text{
+    margin: 4% 0 0 0;
+    font-weight: bold;
+}
+
+.Paragraph{
+    margin-top: 5%;
+}
+
+
+@media screen and (max-width:480px) {
+    .OurMision {
+        background-image: url("assets/images/Portal/AboutUs/BackgroundOurMisionMobile.svg");
+        background-position: center;
+        min-height: 904px;
+    }
+}

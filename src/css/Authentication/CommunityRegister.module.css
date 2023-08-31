@@ -1,0 +1,122 @@
+
+
+.LoginP{
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
+    color: #092C4C !important;
+}
+
+
+
+.continue{
+    /* Button */
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 18px;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #092C4C;
+    margin: 30px 0;
+    color: #FFFFFF !important;
+    font-family: Montserrat;
+    font-size: 15px;
+    
+    /* Inside auto layout */
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+    
+}
+    
+.continue:hover{
+      background-color: #A7D02A;      
+      border: 2px solid #A7D02A;
+      color: #092C4C !important;
+      
+}
+
+
+.return{
+    /* Button */
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 18px;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 30px 0;
+    border: 2px solid #092C4C !important;
+    color: #092C4C;
+    font-family: Montserrat;
+    font-size: 15px;
+    
+    /* Inside auto layout */
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+    
+}
+    
+.return:hover{
+      background-color: #A7D02A;
+      border: 2px solid #A7D02A !important;
+      color: #092C4C;
+}
+
+.dependentLayer{
+    padding: 0 30px;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+.dependentDelete{
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
+    margin-left: 7rem;
+    color: red;
+    font-weight: bold;
+}
+
+.openWidget {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 18px;
+
+    width: 440px;
+    height: 60px;
+
+    background: #092C4C;
+    border: 1.5px solid #092C4C;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.MarginButton {
+    margin-bottom: 20px;
+}

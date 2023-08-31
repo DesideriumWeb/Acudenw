@@ -1,0 +1,63 @@
+.LinkArea{
+    border-radius: 18px;
+    height: 200px;
+    border: 2.5px solid #CCCCCC;
+    padding: 40px;
+    margin: 5% 0;
+}
+
+.LinkArea:hover{
+    border: 2.5px solid #092C4C;
+}
+
+.TextArea{
+    margin-top: 3%;
+}
+
+.circleArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin-left: 32%;
+    width: 140px !important;
+    
+    height: 140px;
+    background: rgba(248, 195, 34, 0.2);
+    mix-blend-mode: normal;
+    border: 3px solid #F8C322;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 200px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.smallCircleArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin-left: 32%;
+    width: 40px !important;
+
+    height: 40px;
+    background: rgba(248, 195, 34, 0.2);
+    mix-blend-mode: normal;
+    border: 3px solid #F8C322;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 200px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

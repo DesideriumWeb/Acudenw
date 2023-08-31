@@ -1,0 +1,23 @@
+.AcudenAcademy{
+    min-height: 610px;
+}
+
+.ImgAcudenAcademy{
+    margin: 2.5em;
+    width: 26% !important;
+}
+
+.contentRow{
+    display: grid;
+    justify-items: center;
+}
+
+.Text{
+    margin: 4% 0 0 0;
+    font-weight: bold;
+}
+
+.Paragraph{
+    margin-top: 5%;
+    max-width: 50%;
+}

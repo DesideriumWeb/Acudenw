@@ -1,0 +1,26 @@
+.Footer {
+    background-color: #1E1E1E;
+    padding: 2.5em 0 1.5em 0;
+}
+
+.FooterText {
+    color: #FFFFFF !important;
+}
+
+.FooterText:hover {
+    color: #FFFFFF !important;
+}
+
+.FooterRow {
+    padding-top: .8em;
+    text-align: center;
+}
+
+.Columns{
+    padding: 1em;
+
+}
+
+@media screen and (max-width:480px) {
+
+}

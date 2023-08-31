@@ -1,0 +1,21 @@
+.FamilyDepartment{
+    min-height: 400px;
+}
+
+.ImgFamilyDepartment{
+    width: 100%;
+}
+
+.ImgArrowKnowMore{
+    height: 50%;
+    margin-left: 1em;
+}
+ 
+.Text{
+    margin: 4% 0 0 0;
+    font-weight: bold;
+}
+
+.Paragraph{
+    margin-top: 5%;
+}

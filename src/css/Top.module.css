@@ -1,0 +1,100 @@
+.topbar {
+    margin: 0 0 30px 0;
+    padding: 1px 5%;
+    position: relative;
+    font-size: 16px;
+    line-height: 22px;
+    height: 112px;
+    background-color: #fff;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 12%);
+    transition: all ease-out 300ms;
+    display: flex;  
+    align-items: center;
+  }
+
+
+.pgLogo{
+  width: 286px;
+  height: 68px;
+}
+.singIn {
+/* Button */
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 17px;
+gap: 18px;
+width: 145px;
+height: 60px;
+border-radius: 8px;
+background-color: #FFFFFF;
+margin: 30px 15px;
+font-family: var(--bs-body-font-family);
+font-size: 19px;
+
+/* Inside auto layout */
+flex: none;
+border: 0;
+flex-grow: 0;
+}
+
+
+.singIn:hover {
+  background-color: #f1f1f1;
+}
+
+.register {
+/* Button */
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 17px;
+gap: 18px;
+width: 145px;
+height: 60px;
+border-radius: 8px;
+background-color: #092C4C;
+margin: 30px 15px;
+color: #FFFFFF;
+font-family: var(--bs-body-font-family);
+font-size: 18px;
+
+/* Inside auto layout */
+flex: none;
+border: 0;
+flex-grow: 0;
+
+}
+
+.registerText{
+  color: #FFFFFF !important;
+}
+
+.registerText:hover{
+  color: #092C4C !important;
+}
+
+.register:hover{
+  background-color: #A7D02A;
+  color: #092C4C;
+}
+
+
+@media screen and (max-width:1180px) {
+
+  .singIn {
+    display: none;
+  }
+
+  .register{
+    display: none;
+  }
+}
